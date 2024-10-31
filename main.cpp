@@ -1,6 +1,10 @@
 #include <iostream>
+#include <string>
+
 
 int main() {
+    std::string my_string {"hello world\n"};
+    std::cout << my_string;
     int x;
     int y;
     int z;
